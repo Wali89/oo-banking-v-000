@@ -20,7 +20,8 @@ class BankAccount
   def valid?
     if self.status = 'closed'
       false
-    else
+    elsif self.status = 'open'
+
       true
     end
   end
