@@ -21,8 +21,9 @@ class BankAccount
     if self.status = 'closed'
       false
     elsif self.status = 'open'
-
       true
+    else
+      false
     end
   end
 
